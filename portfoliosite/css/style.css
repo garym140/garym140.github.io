@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+
+.divlogo{
+	top: 0px:
+	left: 0px;
+	position: fixed;
+	background: white;
+	width: 100%;
+}
+
+
+body{
+	height: 4000px;
+	padding: 0;
+	margin-left: 0;
+	background; color: #8D9978; 
+	z-index: -1;
+}
+
+nav{
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin-right: 150%;
+}
+
+nav ul li{
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+}
+
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	margin-left: 420%;
+	font-family: 'Ubuntu', sans-serif;	
+}
+
+nav ul li a:hover{ 
+	text-decoration: underline;
+	color: #8D9978;
+	font-size: 20px;
+}
+
+#container{
+	background: #8D9978;
+	height: 6000px;
+	width: 100%;
+	z-index: -1;
+}
+
+.box{
+	width: 450px;
+	height: 350px;
+	margin-left: 320px;
+	display: inline-block;
+	background: #8D9978;;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-top: 15px;
+}
+
+#box-1{
+	transition: all 0.5s linear;
+	background: url("../image/");
+	background-size: 110%;
+	
+}
+
+#box-1:hover{
+	transform: translate(200px);
+	background-size: 90%;
+}
+#box-2{
+	transition: all 0.5s linear;
+	background: url("../image/Idea Spark 1.png");
+	background-size: 110%;
+}
+
+#box-2:hover{
+	transform: translate(200px);
+	background-size: 90%;
+}
+#box-3{
+	transition: all 0.5s linear;
+	background: url("../image/Idea Spark 4.jpg");
+	background-size: 110%;
+}
+
+#box-3:hover{
+	transform: translate(200px);
+	background-size: 90%;
+}
+#box-4{
+	transition: all 0.5s linear;
+	background: url("../image/Noma Cab.png");
+	background-size: 110%;
+}
+
+#box-4:hover{
+	transform: translate(200px);
+	background-size: 90%;
+}
+#box-5{
+	transition: all 0.5s linear;
+	background: url("../image/IMG_5390.JPG");
+	background-size: 110%;
+}
+
+#box-5:hover{
+	transform: translate(200px);
+	background-size: 80%;
+}
+#box-6{
+	transition: all 0.5s linear;
+	background: url("../image/'black Beauty'.jpg");
+	background-size: 110%;
+}
+
+#box-6:hover{
+	transform: translate(200px);
+	background-size: 80%;
+}
+#box-7{
+	transition: all 0.5s linear;
+	background: url("../image/Ind Trust.jpg");
+	background-size: 110%;
+	
+}
+
+#box-7:hover{
+	transform: translate(200px);
+	background-size: 80%;
+
+}
+
+#box-8{
+	transition: all 0.5s linear;
+	background: url("../image/Ind Trust 2.jpg");
+	background-size: 110%;
+}
+
+#box-8:hover{
+	transform: translate(200px);
+	background-size: 80%;
+}
+
+#box-9{
+	transition: all 0.5s linear;
+	background: url("../image/Stem X 1.png");
+	background-size: 110%;
+}
+
+#box-9:hover{
+	transform: translate(200px);
+	background-size: 80%;
+}
+#box-10{
+	transition: all 0.5s linear;
+	background: url("../image/sans titre.jpg");
+	background-size: 110%;
+}
+
+#box-10:hover{
+	transform: translate(200px);
+	background-size: 80%;
+}
+
+
+
+
+
+

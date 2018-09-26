@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challenging The System</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+		<body id="full" >
+			<div id="wrapper">
+				<div id="nav"><a href="index.html"><img src="images/logo.png" width="130px" height="54px" alt="logo" class="logo"></a>
+					<ul>
+						<li class="home"><a href="index.html">Home</a></li>
+						<li class="about"><a href="about.html">About</a></li>
+					</ul>
+				</div>
+
+				<div id="container-work">
+
+					<div class="project-head">
+						<div class="Eboxin">
+							<img src="images/challenging.png" width="70%">
+							<div class="Eboxin-info">
+								<h1 class="headerT2">Challenging the System</h1>
+								<h3> I designed a method for people to form their own, self-projected, labels as a tool for self discovery. </h3>
+							</div>
+								<h4 class="breakdown">
+									<strong>Role</strong>
+									 : Interactive Digital Story, User Experience Design, Programing,<br><strong>Tools Used</strong>: Adobe Illustrator, HTMl, CSS, Javascript
+									<br>
+							</h4>
+						</div>
+					</div>
+
+				<div class="project-container">
+
+						<div class="project-description">
+							<h1 class="ProjC">Context</h1>
+							<div class="Epara">
+								<p> Systematic labeling exists all around us, when referring to identity and projected labels these systems can become plagues. I am exploring this idea of labeling. Since classification systems are so heavily engraved in this world, they are impossible to avoid. Everyone around you is labeled a certain way based on physical, mental, emotional attributes.
+								<br><br>
+								Constellation have been used over the years as a way of navigation, mythology, insight into the future, and as a way of identification. The relationship between man and the stars is one that has existed since the creation of man. This form of astrological identification is based off of the positioning of the stars on an individual's birthday. Why did humans use patterns and symbols amongst the stars as a way of representation? It becomes a ‘cop out’ or ‘short-cuts’ to representing ourselves. Making it seem as though it was created as a method for clarifying one’s qualities to others, will ultimately affect our perception of introspection and communication.
+								<br><br>
+								Usage of symbols becomes a shortcut way of self representation and also a shortcut way of labeling others. Once these shortcuts become overused that’s when the system of labeling becomes shallow, restrictive, boxed categories of people. We begin to sacrifice quality for scale.</p>
+							</div>
+						</div>
+
+						<div class="project-description">
+							<h1 class="ProjC">The Experience</h1>
+							<div class="Epara">
+								<p> I made a tool for users to choose the labels they want to self project. This tool has three sections: input, visualization, output. Laid out on a table in front of the user are various puzzle pieces that have symbols or words engraved onto them. When certain pieces are connected, a visualization mirroring that of a constellation will appear on the screen in front of them. The user will be able to use only four puzzle pieces. There will be a box with four puzzle pieces outlined on the top of it, signaling to the user to place their pieces there. In exercises such as these, users gravitate towards symbols and words that best describe who they are as an individual. The goal of this exercise is that the users start to form their own labels. This abstract portrayal of the user will be based off of the symbols they have chosen to self project. The output of this project would be for the user to put their personal constellation on a website. While on this website they have the opportunity to compare the label they have chosen to self project to the the zodiac sign that is associated with them. The users will be challenged to answer these questions:
+								<br><br>
+								What are the similarities and differences between the your self projected label and the label projected onto you?
+								<br><br>
+								Are they similar?
+								<br><br>
+								Are they different?
+								<br><br>
+								Why?</p>
+
+								<img src="images/challidea.png" width="70%">
+							</div>
+						</div>
+
+						<div class="project-description">
+							<h1 class="ProjC">Ideation</h1>
+							<div class="Epara">
+								<p> Creating this digital story took various prototypes.
+								<br><br>
+								I researched the best way to display this digital story. So I thought of showing the correspondence between 2 friends through direct messaging on FB, Instagram, or Snapchat. But then I realised that there something charming about the old fashion email correspondence between friends. So I went down the email route and studied the various qualities of gmail and recreated these emails.
+								<br><br>
+								The 'More Info' button wasn't implemented until later on in the process when feedback from both my classmates and professors were all questioning how this story is helping to inform those reading it of the current privacy issues we face in the digital space.
+								<br><br>
+								The very last 'creepy' touch in all of this are the live camera feeds that in Vietnam that I was able to hack and run 24/7 within this digital story... WILD. </p>
+
+								<img src="images/challsketches.png" width="70%">
+							</div>
+						</div>
+
+						<div class="project-description">
+							<h1 class="ProjC">Prototype 1</h1>
+								<div class="Epara">
+									<p>
+											The focus of this prototype was testing to see if I was able to connect the physical pieces and have a digital, visual component react to the connection. After laser cutting out my puzzle pieces, I started messing with the arduino. Elbows deep in wire, I was finally able to show a reaction to the connection through the arduino serial monitor. The next step was connecting it to a Processing sketch. This part was tricky, but it ended up working so that once the puzzle pieces connected then the user would be able to start drawing something on processing.
+									</p>
+									<img src="images/challproto1.png" width="70%">
+							</div>
+						</div>
+
+
+						<div class="project-description">
+							<h1 class="ProjC">Prototype 2</h1>
+								<div class="Epara">
+									<p>With this prototype I catered its functions specifically to my concept. I coded the constellation sketch in openframeworks. Then I connected my arduino to the openframeworks sketch, and laser engraved the puzzle pieces with specific words, numbers, and symbols. I ran into two issues. My openframeworks code was only sensing one connection instead of two different connections. The connection between the puzzle pieces in general were not the strongest. I also began brainstorming how to use as little wires as possible and a way to hide the wires. For the output part of this prototype I printed out each zodiac sign with its corresponding information, and had the users find their paper, read it, and start the comparing/analysis portion of this experience.</p>
+									<img src="images/challproto2.png" width="70%">
+								</div>
+						</div>
+
+						<div class="project-description">
+							<h1 class="ProjC">Prototype 3</h1>
+								<div class="Epara">
+									<p>I built a box. This box would hide the arduino and the wires attached to it. On the flat top of the box is an engraved outline of the four puzzle pieces. This top part signals to the user where to place the puzzle pieces. By having  a hard surface and more conductive tape, the connection between the pieces was stronger and easier to sense in openframeworks. Heeding the feedback from my professors, I addressed the output portion of my project. Instead of having printouts of the zodiac signs, I created a website. This website contains all of the zodiac signs and their information in more organized manner. I also coded this screen capturing feature into my openframeworks sketch so that the user can immediately upload that image of their constellation to the forum section of the website. This forum page will contain all of the personalized visualizations created by the users.</p>
+									<img src="images/challproto3.png" width="70%">
+									<video width="100%" height="600" controls>
+				                    <source src="images/ChallVideo.mp4" type="video/mp4">
+									</video>
+								</div>
+						</div>
+			</div>
+
+</body>
+</html>

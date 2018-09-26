@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M++</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+		<script src="../p5.min.js"></script>
+
+</head>
+<body>
+	<body id="full">
+    <div id="wrapper">
+    <div id="nav"><a href="index.html">
+				<img src="images/logo.png" width="130px" height="54px" alt="logo" class="logo"></a>
+        <ul>
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="about"><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <p id="example4"><i class="ti-placeholder" style="display:inline-block;width:0;line-height:0;overflow:hidden;">.</i><span style="display:inline;position:relative;font:inherit;padding-bottom:10%;color:inherit;" class="ti-container">I'm a creative design technologist.</span><span style="display: inline; position: absolute; font: inherit; color: inherit; opacity: 0.872971;" class="ti-cursor">|</span></p>
+    </div>
+
+    </div>
+    <script type="text/javascript">
+        $('#example4').typeIt({
+            speed: 50
+            , autoStart: false
+        }).tiType('Wll').tiPause(500).tiDelete(2).tiType('ell, ').tiPause(1000).tiType('I am a creative').tiPause(400).tiDelete(16).tiType('I create things that start conversations').tiBreak().tiPause(750).tiType(' but I also solve problems using technology').tiSettings({
+            speed: 700
+        }).tiType('...').tiPause(750).tiSettings({
+            speed: 50
+        }).tiDelete().tiType('that\s it').tiPause(750).tiSettings({
+            speed: 50
+        }).tiDelete().tiType('I\'m a creative technologist.');
+    </script>
+    <script type="text/javascript">
+        function ran_col() { //function name
+            var color = '#'; // hexadecimal starting symbol
+            var letters = ['000000', '313E50', 'DB5461']; //Set your colors here
+            color += letters[Math.floor(Math.random() * letters.length)];
+            document.getElementById('full').style.background = color; // Setting the random color on your div element.
+        }
+    </script>
+
+    <div class="grid-container">
+				<div id="grids1">
+	        <div class="boxin" id="boxin-1">
+						<a href="indexE.html">
+	            <div class="overlay1">
+	            	<div class="text">"ESCAPE"</div>
+	            </div>
+	        	</a>
+					</div>
+
+	        <div class="boxin" id="boxin-2"><a href="indexL.html">
+	            <div class="overlay2">
+	            <div class="text">Challenging the System</div>
+	            </div>
+	        </a></div>
+
+	        <div class="boxin" id="boxin-3"><a href="indexD.html">
+	            <div class="overlay3">
+	            <div class="text">Double I.D.</div>
+	            </div>
+	        </a></div>
+
+	        <div class="boxin" id="boxin-4"><a href="indexDC.html">
+	            <div class="overlay4">
+	            <div class="text">Double Consciousness</div>
+	            </div>
+	        </a></div>
+
+					<div class="boxin" id="boxin-5"><a href="indexM.html">
+							<div class="overlay5">
+							<div class="text">Mirror of Truth</div>
+							</div>
+					</a></div>
+	    </div>
+		</div>
+		<script src="js/main.js"></script>
+</body>
+
+</body>
+</html>

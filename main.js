@@ -1,6 +1,8 @@
-<script src="https://cdn.jsdelivr.net/npm/typeit@VERSION_NUMBER/dist/typeit.min.js" />
+<script src="https://cdn.jsdelivr.net/npm/typeit@VERSION_NUMBER/dist/typeit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
 <script src="../p5.min.js"></script>
 <script src="anime.min.js"></script>
+<script src="anime.js"></script>
 
 let t = 0; // time variable
 

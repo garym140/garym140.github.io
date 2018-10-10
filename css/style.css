@@ -382,7 +382,6 @@ h1.ProjC {
 .zoom {
     padding: 50px;
     transition: transform .2s;
-    background-color: white;
     width: 300px;
     height: 200px;
     margin: 0 auto;

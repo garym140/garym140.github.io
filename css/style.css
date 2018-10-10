@@ -30,17 +30,16 @@
 
 ul {
   text-decoration: none;
-  display: inline;
-  float: left;
   /*    vertical-align: middle;
   padding-bottom: 10px;*/
-  padding-left: 45%;
   background-color: #ffffff;
+  margin-top: 9%;
   width: 100%;
   height: 50px;
   top: 0px;
   left: 0px;
-
+  padding: 0;
+  margin-left: -20px;
 
 
 }
@@ -111,6 +110,7 @@ li a {
 
 .Eboxin {
   /* margin: 0 auto; */
+  position: relative;
   max-width:  2000px;
   margin-top: 70px;
   margin-bottom: 160px;
@@ -118,40 +118,50 @@ li a {
 
 .Eboxin img {
   /* position: absolute; */
+  position: relative;
   display: inline-block;
   vertical-align: top;
+}
+
+.Eboxin: hover{
+  background-color: yellow;
 }
 
 .Eboxin-info {
   position: absolute;
   display: inline-block;
-  z-index: 3;
-  max-width: 100%;
-  margin-left: 2%;
-  vertical-align: top;
+  z-index: 30;
+  max-width: 30%;
+  margin-bottom: 5%;
   box-sizing:  border-box;
-  /* padding-left:  32px; */
+  /* margin-left: -15%; */
+  background-color: rgba(254, 255, 254, 0.7);
+  box-shadow: 3px 3px #2B4857;
 }
 
 .Eboxin h3 {
   font-size: 18px;
   text-align: left;
   font-family: 'Roboto', sans-serif;
-  color: #848484;
+  color: #2B4857;
+  line-height: 1.5;
 }
 
 .headerT2 {
   font-size: 40px;
   font-family: 'Roboto', sans-serif;
-  color: #4c4c4c;
+  color: #2B4857;
   margin-top:  unset;
+  text-align: left;
 }
 
 .breakdown {
 
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
-  color: #5c5c5c;
+  color: #2B4857;
+  margin-left: 15%;
+  text-align:left;
 }
 
 
@@ -159,7 +169,7 @@ li a {
 h1.ProjC {
   font-size: 24px;
   font-family: 'Roboto', sans-serif;
-  color: #7E7F9A;
+  color: #2B4857;
   margin: unset;
   min-width: 120px;
 }
@@ -167,9 +177,10 @@ h1.ProjC {
 .Epara {
   font-size: 17px;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #5c5c5c;
   padding-left: 24px;
+  line-height: 2;
 }
 
 .Epara img {
@@ -190,7 +201,7 @@ h1.ProjC {
   /* display: inline-block; */
   background: url("../images/escape.png");
   cursor: pointer;
-  background-size: cover !important;
+  /* background-size: cover !important; */
   background-position: center !important;
   border-radius: 2px;
   position: relative;
@@ -212,7 +223,7 @@ h1.ProjC {
   opacity: 0;
   transition: .5s ease;
   border-radius: 2px;
-  background-color: rgb(37, 72, 86);
+  background-color: rgb(37, 72, 86, 0.8);
 }
 
 .text {
@@ -230,6 +241,7 @@ h1.ProjC {
 
 #boxin-1 {
   transition: all 0.5s ease;
+  background-size: cover;
 }
 
 #boxin-1:hover .overlay1 {
@@ -247,12 +259,13 @@ h1.ProjC {
   opacity: 0;
   transition: .5s ease;
   border-radius: 2px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0, 0.8);
 }
 
 #boxin-2 {
   transition: all 0.5s linear;
   background: url("../images/challenging.png");
+  background-size: contain;
   /* grid-row: span 2; */
   /* grid-column: span 2; */
 }
@@ -272,13 +285,14 @@ h1.ProjC {
   opacity: 0;
   transition: .5s ease;
   border-radius: 2px;
-  background-color: rgb(164, 195, 177);
+  background-color: rgb(164, 195, 177,0.8);
 }
 
 #boxin-3 {
   transition: all 0.5s linear;
   background: url("../images/game03.jpg");
   grid-column: span 2;
+  background-size: cover;
 }
 
 #boxin-3:hover .overlay3 {
@@ -296,12 +310,13 @@ h1.ProjC {
   opacity: 0;
   transition: .5s ease;
   border-radius: 2px;
-  background-color: rgb(75, 56, 42);
+  background-color: rgb(75, 56, 42, 0.8);
 }
 
 #boxin-4 {
   transition: all 0.5s linear;
   background: url("../images/doublec.png");
+  background-size: contain;
 }
 
 #boxin-4:hover .overlay4 {
@@ -319,19 +334,23 @@ h1.ProjC {
   opacity: 0;
   transition: .5s ease;
   border-radius: 2px;
-  background-color: rgb(0,0,0);
+  background-color: rgb(0,0,0, 0.8);
 
 }
 
 #boxin-5 {
   transition: all 0.5s linear;
   background: url("../images/mcover.png");
+  background-size: cover;
 }
 
 #boxin-5:hover .overlay5 {
   opacity: 1;
 }
 
+.project-head{
+  text-align: center;
+}
 
 .project-container {
   max-width: 880px;
@@ -343,10 +362,18 @@ h1.ProjC {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
   margin-bottom: 32px;
 }
 
 .project-description:last-child {
   margin-bottom: 80px;
+}
+
+.anim, .anim svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.anim path {
+  stroke-width: 2;
 }

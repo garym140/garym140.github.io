@@ -123,8 +123,11 @@ li a {
   vertical-align: top;
 }
 
-.Eboxin: hover{
-  background-color: yellow;
+.Eboxin:hover{
+      -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+      transform: scale(1.05);
+      transition: transform .6s;
 }
 
 .Eboxin-info {
@@ -135,7 +138,7 @@ li a {
   margin-bottom: 5%;
   box-sizing:  border-box;
   /* margin-left: -15%; */
-  background-color: rgba(254, 255, 254, 0.7);
+  /* background-color: rgba(254, 255, 254, 0.7); */
   box-shadow: 3px 3px #2B4857;
 }
 
@@ -181,6 +184,8 @@ h1.ProjC {
   color: #5c5c5c;
   padding-left: 24px;
   line-height: 2;
+  background-color: white;
+  position: relative;
 }
 
 .Epara img {
@@ -371,6 +376,8 @@ h1.ProjC {
 
 .anim, .anim svg {
   position: absolute;
+  position: fixed;
+  z-index: -5;
   width: 100%;
   height: 100%;
 }

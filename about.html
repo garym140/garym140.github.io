@@ -1,0 +1,56 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>M</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+
+</head>
+  <body>
+    <body id="full" >
+			<div id="wrapper">
+				<div id="nav"><a href="index.html"><img src="images/logo.png" width="150px" height="90px" alt="logo" class="logo"></a>
+					<ul>
+						<li class="home"><a href="index.html">Home</a></li>
+						<li class="about"><a href="about.html">About</a></li>
+					</ul>
+				</div>
+      <div id="container">
+            <p id="example4"><i class="ti-placeholder" style="display:inline-block;width:0;line-height:0;overflow:hidden;">.</i><span style="display:inline;position:relative;font:inherit;padding-bottom:10%;color:inherit;" class="ti-container">I'm a Multidisciplinary Designer6.</span><span style="display: inline; position: absolute; font: inherit; color: inherit; opacity: 0.872971;" class="ti-cursor">|</span></p>
+      </div>
+      <script type="text/javascript">
+            $('#example4').typeIt({
+                speed: 50
+                , autoStart: false
+            }).tiType('Hel').tiPause(500).tiDelete(1).tiType('y, ').tiPause(1000).tiType('thanks for looking at my portfolio!').tiPause(400).tiDelete(35).tiType('if you have any questions').tiPause(750).tiSettings({
+                speed: 50
+            }).tiDelete().tiType('Feel free to email me at').tiPause(500).tiDelete().tiType('mgary44@gmail.com');
+      </script>
+      <script type="text/javascript">
+            function ran_col() { //function name
+                var color = '#'; // hexadecimal starting symbol
+                var letters = ['000000', '313E50', 'DB5461']; //Set your colors here
+                color += letters[Math.floor(Math.random() * letters.length)];
+                document.getElementById('full').style.background = color; // Setting the random color on your div element.
+            }
+      </script>
+
+				<div id="container-work">
+					<div class="project-head">
+						<div class="Eboxin">
+							<img src="images/me.png" width="70%">
+							<p class="breakdown">
+								<strong>Hobbies</strong>: Wandering,Traveling, Movies<br>
+								 <strong>Favorite Food</strong>: French Fries, Dad's Mac n Cheese,
+								<br>
+              </p>
+          </div>
+            <div class="Eboxin">
+              <img src="images/THEresume.jpg" width="70%">
+            </div>
+        </div>
+    	</div>
+		<script src="main.js"></script>
+  </body>
+</html>

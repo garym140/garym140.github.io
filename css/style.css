@@ -107,6 +107,7 @@ li a {
   grid-template-columns: auto auto auto ;
   grid-column-gap: 30px;
   padding-left: 60px;
+  padding-top: 40px;
 }
 
 .Eboxin {
@@ -114,7 +115,7 @@ li a {
   position: relative;
   max-width:  2000px;
   margin-top: 70px;
-  margin-bottom: 160px;
+  margin-bottom: 25px;
 }
 
 .Eboxin img {
@@ -176,6 +177,7 @@ h1.ProjC {
   color: #2B4857;
   margin: unset;
   min-width: 120px;
+  z-index: 1;
 }
 
 .Epara {
@@ -212,7 +214,7 @@ h1.ProjC {
   display: block;
   margin-bottom: 40px;
   border-radius: 13px;
-  max-height: 300px;
+  max-height: 310px;
   min-height: 156px;
   object-fit: cover;
   object-position: center center;
@@ -247,14 +249,14 @@ h1.ProjC {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  margin-top: 35%;
+  margin-top: 40%;
   margin-left: 50%;
 }
 
 #boxin-1 {
   transition: all 0.5s ease;
-  background-size: cover;
   background: url("../images/ESCAPE.png");
+  background-size: cover;
 }
 
 #boxin-1:hover .overlay1 {
@@ -278,7 +280,9 @@ h1.ProjC {
 #boxin-2 {
   transition: all 0.5s linear;
   background: url("../images/challenging.png");
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
+
   /* grid-row: span 2; */
   /* grid-column: span 2; */
 }
@@ -327,7 +331,8 @@ h1.ProjC {
 #boxin-4 {
   transition: all 0.5s linear;
   background: url("../images/doublec.png");
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 
  #boxin-4:hover .overlay4 {
@@ -392,7 +397,7 @@ h1.ProjC {
 
 
 .zoom {
-    padding: 50px;
+    padding: 70px;
     transition: transform .2s;
     width: 300px;
     height: 200px;

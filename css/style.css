@@ -96,16 +96,17 @@ li a {
 .grid-container {
   position: relative;
   background-color: #ffffff;
-  width: 100%;
-  /* padding:  24px 0 0; */
+  width: 50%;
 }
 
 #grids1 {
   /* max-width: 975px; */
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto ;
+  grid-column-gap: 30px;
+  padding-left: 60px;
 }
 
 .Eboxin {
@@ -123,12 +124,12 @@ li a {
   vertical-align: top;
 }
 
-.Eboxin img:hover{
+/* .Eboxin img:hover{
       -ms-transform: scale(1.1); /* IE 9 */
       -webkit-transform: scale(1.1); /* Safari 3-8 */
       transform: scale(1.05);
       transition: transform .6s;
-}
+} */
 
 .Eboxin-info {
   position: absolute;
@@ -202,23 +203,28 @@ h1.ProjC {
 
 .boxin {
   /* width: 30%; */
-  height: 60vh;
-  /* display: inline-block; */
+  /* height: 60vh;
   background: url("../images/escape.png");
   cursor: pointer;
-  /* background-size: cover !important; */
   background-position: center !important;
   border-radius: 2px;
-  position: relative;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* margin-top: 25px; */
-  /* margin-bottom: 25px; */
-  /*margin-left: 150px;*/
+  position: relative; */
+  display: block;
+  margin-bottom: 40px;
+  border-radius: 13px;
+  max-height: 300px;
+  min-height: 156px;
+  object-fit: cover;
+  object-position: center center;
+  box-shadow: 0 15px 60px -15px rgba(0, 0, 0, 0.5);
+}
+
+.boxin:hover{
+  transform: scale(1.06);
+  z-index: 300;
 }
 
 .overlay1 {
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -227,8 +233,9 @@ h1.ProjC {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  border-radius: 2px;
+  border-radius: 13px;
   background-color: rgb(37, 72, 86, 0.8);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .text {
@@ -236,25 +243,26 @@ h1.ProjC {
   font-family: 'Roboto', sans-serif !important;
   font-size: 20px;
   position: absolute;
-  top: 50%;
-  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  margin-top: 35%;
+  margin-left: 50%;
 }
 
 #boxin-1 {
   transition: all 0.5s ease;
   background-size: cover;
+  background: url("../images/ESCAPE.png");
 }
 
 #boxin-1:hover .overlay1 {
   opacity: 1;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .overlay2 {
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -263,7 +271,7 @@ h1.ProjC {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  border-radius: 2px;
+  border-radius: 13px;
   background-color: rgb(0, 0, 0, 0.8);
 }
 
@@ -280,7 +288,6 @@ h1.ProjC {
 }
 
 .overlay3 {
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -289,14 +296,14 @@ h1.ProjC {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  border-radius: 2px;
+  border-radius: 13px;
   background-color: rgb(164, 195, 177,0.8);
 }
 
 #boxin-3 {
   transition: all 0.5s linear;
   background: url("../images/game03.jpg");
-  grid-column: span 2;
+  grid-column: span 1;
   background-size: cover;
 }
 
@@ -304,8 +311,7 @@ h1.ProjC {
   opacity: 1;
 }
 
-.overlay4 {
-  position: absolute;
+ .overlay4 {
   top: 0;
   bottom: 0;
   left: 0;
@@ -314,7 +320,7 @@ h1.ProjC {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  border-radius: 2px;
+  border-radius: 13px;
   background-color: rgb(75, 56, 42, 0.8);
 }
 
@@ -324,12 +330,11 @@ h1.ProjC {
   background-size: contain;
 }
 
-#boxin-4:hover .overlay4 {
+ #boxin-4:hover .overlay4 {
   opacity: 1;
 }
 
-.overlay5 {
-  position: absolute;
+ .overlay5 {
   top: 0;
   bottom: 0;
   left: 0;
@@ -338,7 +343,7 @@ h1.ProjC {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  border-radius: 2px;
+  border-radius: 13px;
   background-color: rgb(0,0,0, 0.8);
 
 }
@@ -395,7 +400,11 @@ h1.ProjC {
 }
 
 .zoom:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5);
+    -ms-transform: scale(1.20); /* IE 9 */
+    -webkit-transform: scale(1.20); /* Safari 3-8 */
+    transform: scale(1.20);
+}
+
+.resume{
+  box-shadow: 0 15px 60px -15px rgba(0, 0, 0, 0.5);
 }

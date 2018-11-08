@@ -21,7 +21,7 @@
   position: relative;
   width: 100%;
   height: 50px;
-  z-index: 99999;
+  z-index: 49;
 }
 
 .logo {
@@ -99,6 +99,7 @@ li a {
   position: relative;
   background-color: #ffffff;
   width: 50%;
+  z-index: 50;
 }
 
 #grids1 {
@@ -127,7 +128,7 @@ li a {
   vertical-align: top;
 }
 
-/* .Eboxin img:hover{
+ /* .Eboxin img:hover{
       -ms-transform: scale(1.1); /* IE 9 */
       -webkit-transform: scale(1.1); /* Safari 3-8 */
       transform: scale(1.05);
@@ -418,10 +419,8 @@ h1.ProjC {
 }
 
 #resume:hover{
-   transition: transform .2s;
-  -ms-transform: scale(1.10); /* IE 9 */
-  -webkit-transform: scale(1.10); /* Safari 3-8 */
-  transform: scale(1.10);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.05);
+  transition: transform .6s;
 }

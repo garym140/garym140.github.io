@@ -126,7 +126,7 @@ li a {
   position: relative;
   display: inline-block;
   vertical-align: top;
-}
+}h
 
  /* .Eboxin img:hover{
       -ms-transform: scale(1.1); /* IE 9 */
@@ -423,4 +423,13 @@ h1.ProjC {
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.05);
   transition: transform .6s;
+}
+
+#footer{
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 12px;
+  text-decoration: none;
+  color:rgb(43, 72, 87);
+  text-align: center;
+  margin: 0;
 }

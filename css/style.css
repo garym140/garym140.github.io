@@ -128,7 +128,7 @@ li a {
   vertical-align: top;
 }h
 
- /* .Eboxin img:hover{
+ /* .Eboxin :hover{
       -ms-transform: scale(1.1); /* IE 9 */
       -webkit-transform: scale(1.1); /* Safari 3-8 */
       transform: scale(1.05);
@@ -383,7 +383,7 @@ h1.ProjC {
 
 #boxin-6 {
  transition: all 0.5s linear;
- background: url("../images/CRimage2.jpg");
+ background: url("../images/crimage2.jpg");
  background-size: cover;
  background-position: center;
 }

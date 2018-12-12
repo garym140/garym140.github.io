@@ -439,6 +439,18 @@ h1.ProjC {
     transform: scale(1.20);
 }
 
+.zoom1 {
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom1:hover {
+    -ms-transform: scale(1.20); /* IE 9 */
+    -webkit-transform: scale(1.20); /* Safari 3-8 */
+    transform: scale(1.20);
+}
+
 #resume{
   box-shadow: 0 15px 60px -15px rgba(0, 0, 0, 0.5);
 }
@@ -457,4 +469,8 @@ h1.ProjC {
   color:rgb(43, 72, 87);
   text-align: center;
   margin: 0;
+}
+
+.spacing{
+  margin: 20px;
 }

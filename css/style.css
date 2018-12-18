@@ -153,6 +153,7 @@ li a {
   font-family: 'Roboto', sans-serif;
   color: #2B4857;
   line-height: 1.5;
+  background-color: white;
 }
 
 .headerT2 {
@@ -169,7 +170,8 @@ li a {
   font-family: 'Roboto', sans-serif;
   color: #2B4857;
   margin-left: 15%;
-  text-align:left;
+  text-align: left;
+  background-color: white;
 }
 
 

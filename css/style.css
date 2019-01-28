@@ -241,7 +241,7 @@ h1.ProjC {
   opacity: 0;
   transition: .5s ease;
   border-radius: 13px;
-  background-color: rgb(37, 72, 86, 0.8);
+  background-color: rgb(240,240,240, 0.8);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -260,7 +260,7 @@ h1.ProjC {
 
 #boxin-1 {
   transition: all 0.5s ease;
-  background: url("../images/escape.png");
+  background: url("../images/pom.png");
   background-size: cover;
 }
 
@@ -360,7 +360,7 @@ h1.ProjC {
 
 #boxin-5 {
   transition: all 0.5s linear;
-  background: url("../images/pom.png");
+  background: url("../iimages/preG1.png");
   background-size: cover;
   background-position: center;
 }

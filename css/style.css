@@ -231,20 +231,6 @@ h1.ProjC {
   z-index: 300;
 }
 
-.overlay1 {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  border-radius: 13px;
-  background-color: rgb(240,240,240, 0.8);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
 .text {
   color: white;
   font-family: 'Roboto', sans-serif !important;
@@ -258,10 +244,24 @@ h1.ProjC {
   margin-left: 50%;
 }
 
+.overlay1 {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  border-radius: 13px;
+  background-color: rgb(107,98,171, 0.8);
+}
+
 #boxin-1 {
   transition: all 0.5s ease;
   background: url("../images/pom.png");
   background-size: cover;
+  background-position: center;
 }
 
 #boxin-1:hover .overlay1 {
@@ -354,13 +354,13 @@ h1.ProjC {
   opacity: 0;
   transition: .5s ease;
   border-radius: 13px;
-  background-color: rgb(107,98,171, 0.8);
+  background-color: rgb(113,32,90, 0.8);
 
 }
 
 #boxin-5 {
   transition: all 0.5s linear;
-  background: url("../iimages/preG1.png");
+  background: url("../images/preG1.png");
   background-size: cover;
   background-position: center;
 }

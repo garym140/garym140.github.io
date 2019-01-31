@@ -5,14 +5,14 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-top: 8%;
-  padding-bottom: 10%;
+  padding-top: 18%;
+  padding-bottom: 7%;
   z-index: 0;
   /* background: rgb(143, 209, 202); */
 }
 
 .ti-container {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 #nav {
@@ -105,12 +105,12 @@ li a {
 #grids1 {
   /* max-width: 975px; */
   width: 90vw;
-  height: 100vh;
+  height: 90vh;
   display: grid;
   grid-template-columns: auto auto auto ;
   grid-column-gap: 30px;
   padding-left: 60px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .Eboxin {
@@ -401,6 +401,7 @@ h1.ProjC {
 .project-container {
   max-width: 880px;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .project-description {

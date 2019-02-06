@@ -311,9 +311,9 @@ h1.ProjC {
 
 #boxin-3 {
   transition: all 0.5s linear;
-  background: url("../images/game03.jpg");
+  background: url("../images/durp1.png");
   grid-column: span 1;
-  background-size: cover;
+  background-size: contain;
 }
 
 #boxin-3:hover .overlay3 {

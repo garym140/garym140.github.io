@@ -209,17 +209,10 @@ h1.ProjC {
 }
 
 .boxin {
-  /* width: 30%; */
-  /* height: 60vh;
-  background: url("../images/escape.png");
-  cursor: pointer;
-  background-position: center !important;
-  border-radius: 2px;
-  position: relative; */
   display: block;
   margin-bottom: 40px;
   border-radius: 13px;
-  max-height: 310px;
+  max-height: 510px;
   min-height: 156px;
   object-fit: cover;
   object-position: center center;

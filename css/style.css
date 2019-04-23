@@ -273,12 +273,12 @@ h1.ProjC {
   opacity: 0;
   transition: .5s ease;
   border-radius: 13px;
-  background-color: rgb(72, 72, 72, 0.8);
+  background-color: rgb(196, 176, 116, 0.8);
 }
 
 #boxin-2 {
   transition: all 0.5s linear;
-  background: url("../images/challenging.png");
+  background: url("../images/communitology.png");
   background-size: cover;
   background-position: center;
 
@@ -379,7 +379,7 @@ h1.ProjC {
 
 #boxin-6 {
  transition: all 0.5s linear;
- background: url("../images/crimage2.jpg");
+ background: url("../images/crimage2.5.jpg");
  background-size: cover;
  background-position: center;
 }

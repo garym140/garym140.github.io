@@ -121,19 +121,20 @@ li a {
   margin-bottom: 25px;
 }
 
+.About {
+  /* position: absolute; */
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -230;
+}
+
 .Eboxin img {
   /* position: absolute; */
   position: relative;
   display: inline-block;
   vertical-align: top;
-}h
-
- /* .Eboxin :hover{
-      -ms-transform: scale(1.1); /* IE 9 */
-      -webkit-transform: scale(1.1); /* Safari 3-8 */
-      transform: scale(1.05);
-      transition: transform .6s;
-} */
+}
 
 .Eboxin-info {
   position: absolute;

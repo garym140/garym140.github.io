@@ -349,13 +349,13 @@ h1.ProjC {
   opacity: 0;
   transition: .5s ease;
   border-radius: 13px;
-  background-color: rgb(113,32,90, 0.8);
+  background-color: rgb(107,98,171, 0.8);
 
 }
 
 #boxin-5 {
   transition: all 0.5s linear;
-  background: url("../images/preG1.png");
+  background: url("../images/pom.png");
   background-position: center;
   background-size: contain;
   

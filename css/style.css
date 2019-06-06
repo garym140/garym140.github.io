@@ -108,7 +108,7 @@ li a {
   width: 60vw;
   height: 90vh;
   display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: auto auto;
   grid-column-gap: 30px;
   padding-left: 300px;
   padding-top: 20px;

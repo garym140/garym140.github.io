@@ -331,7 +331,7 @@ h1.ProjC {
 #boxin-4 {
   transition: all 0.5s linear;
   background: url("../images/doublec.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 

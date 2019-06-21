@@ -375,13 +375,13 @@ h1.ProjC {
  opacity: 0;
  transition: .5s ease;
  border-radius: 13px;
- background-color: rgb(240,240,240, 0.8);
+ background-color: rgb(174,225,249, 0.8);
 
 }
 
 #boxin-6 {
  transition: all 0.5s linear;
- background: url("../images/crpphighfidelity.jpg");
+ background: url("../images/ml5js_Cover.png");
  background-size: cover;
  background-position: center;
 }
